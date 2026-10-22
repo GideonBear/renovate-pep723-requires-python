@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["pep621", "pep723"],
   "pep723": {
     "managerFilePatterns": ["/\\.py$/"]
   },
