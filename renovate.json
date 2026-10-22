@@ -2,5 +2,11 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "pep723": {
     "managerFilePatterns": ["/\\.py$/"]
-  }
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": ["requires-python"],
+      "rangeStrategy": "bump"
+    }
+  ]
 }
